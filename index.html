@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My shopping Cart</title>
+        <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./style.css">
+
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div><img class="logo" src="./img/logo.jpg" alt="logo"></div>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li class="cart">
+                        <a href="./cart.html">
+                            <ion-icon name="cart"></ion-icon>
+                            <span>0</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main class="container">
+            <div id="image1">
+                <img src="./img/shirt1.jpg" alt="shirt1">
+                <h3>Panda hoodie</h3>
+                <h3>20$</h3>
+                <i id="heart-1" onclick="like('heart-1')" class="fa fa-heart"></i>
+                <a class="add_cart cart1" href="#">Add to Cart</a>  
+            </div>
+            <div id="image2">
+                <img src="./img/shirt2.jpg" alt="shirt2">
+                <h3>Black hoodie</h3>
+                <h3>15$</h3>
+                <i id="heart-2" onclick="like('heart-2')" class="fa fa-heart"></i>
+                <a class="add_cart cart2" href="#" >Add to Cart</a>  
+            </div>
+            <div id="image3">
+                <img src="./img/shirt3.jpg" alt="shirt3">
+                <h3>Printed hoodie</h3>
+                <h3>25$</h3>
+                <i id="heart-3" onclick="like('heart-3')" class="fa fa-heart"></i>
+                <a class="add_cart cart3" href="#">Add to Cart</a>
+            </div>
+            <div id="image4">
+                <img src="./img/shirt4.jpg" alt="shirt4">
+                <h3>Tendance hoodie</h3>
+                <h3>30$</h3>
+                <i id="heart-4" onclick="like('heart-4')" class="fa fa-heart"></i>
+                <a class="add_cart cart4" href="#">Add to Cart</a>
+            </div>
+            <div id="image5">
+                <img src="./img/shirt5.jpg" alt="shirt5">
+                <h3>Adidas hoodie</h3>
+                <h3>50$</h3>
+                <i id="heart-5" onclick="like('heart-5')" class="fa fa-heart"></i>
+                <a class="add_cart cart5" href="#">Add to Cart</a>
+            </div>
+            <div id="image6">
+                <img src="./img/shirt6.jpg" alt="shirt6">
+                <h3>Kitty Cat hoodie</h3>
+                <h3>20$</h3>
+                <i id="heart-6" onclick="like('heart-6')" class="fa fa-heart"></i>
+                <a class="add_cart cart6" href="#">Add to Cart</a>
+            </div>
+
+        </main>
+
+        <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
